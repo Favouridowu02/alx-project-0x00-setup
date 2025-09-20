@@ -1,6 +1,6 @@
 import Image from "next/image";
-import HOUSE_IMAGE from "@/public/assets/house.jpg";
-import STAR_IMAGE from "@/public/assets/star.png";
+const HOUSE_IMAGE = "/assets/images/house.png";
+const STAR_IMAGE = "/assets/images/star.png";
 import React from "react";
 import Pill from "./Pill";
 
@@ -20,7 +20,7 @@ const Card: React.FC = () => {
                     <p className="font-medium text-[17px] text-[#929292]">Sideman, Bali, Indonesia</p>
                 </div>
                 <div className="flex items-center">
-                    <Image src={STAR_IMAGE} alt="star" />
+                    <Image src={STAR_IMAGE} alt="star" width={24} height={24} />
                     <p className="font-medium text-[17px] ml-2">4.76</p>
                 </div>
             </div>
