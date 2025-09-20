@@ -6,5 +6,5 @@ export interface ButtonProps {
     sizes: 'small' | 'medium' | 'large';
     shapes: 'rounded-sm' | 'rounded-lg' | 'rounded-full';
     title: string;
-    styles?: string;
+    styles: string;
 }
